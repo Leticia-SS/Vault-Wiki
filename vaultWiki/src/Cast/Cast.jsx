@@ -1,6 +1,0 @@
-const Descent = () => {
-    return(
-        <>
-        </>
-    )
-}
