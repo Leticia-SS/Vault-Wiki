@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import CardContainer from './CharacterCard';
 import './Cast.css'
 
 async function fetchData(setData) {
@@ -23,15 +24,8 @@ const Descent = () => {
     }, []); 
 
     return (
-        <div className='card-container'>
-            {data.map((character, index) => (
-                <div className="card" key={index}>
-                    <h2 className="card-title">{character.name}</h2>
-                    <p className="card-subtitle">Aluma: {character.aluma}</p>
-                    <p className="card-subtitle">Cabin: {character.cabin}</p>
-                    <p className="card-subtitle">Type: {character.type.join(", ")}</p>
-                </div>
-            ))}
+        <div>
+          <CardContainer characters={data}/>
         </div>
     );
 }
