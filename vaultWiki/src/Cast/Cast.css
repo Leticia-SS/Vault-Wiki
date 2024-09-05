@@ -19,3 +19,43 @@
     justify-content: center;
     gap: 10px;
 }
+
+.archetypes-container{
+    margin: 20px;
+}
+
+.category-section{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.category-name {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-title{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.skill-description{
+    font-size: 12px;
+    text-align: center;
+}
