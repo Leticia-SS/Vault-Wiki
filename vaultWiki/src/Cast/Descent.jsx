@@ -24,9 +24,9 @@ const Descent = () => {
     }, []); 
 
     return (
-        <div>
+        <>
           <CardContainer characters={data}/>
-        </div>
+        </>
     );
 }
 

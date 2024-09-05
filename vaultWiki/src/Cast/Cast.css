@@ -1,14 +1,13 @@
 .card-container {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-evenly; 
-    gap: 20px; 
     padding: 20px; 
     box-sizing: border-box;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 10px;
 }
 
 .card{
-    width: 20%;
     padding: 10px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
