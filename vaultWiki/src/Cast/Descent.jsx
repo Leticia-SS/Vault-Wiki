@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import CardContainer from './CharacterCard';
+import CardContainer from './components/CharacterCard';
 import './Cast.css'
 
 async function fetchData(setData) {

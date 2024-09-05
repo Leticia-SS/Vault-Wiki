@@ -1,5 +1,5 @@
 import TypeImage from './TypeImage';
-import './Cast.css'; // Para os estilos
+import '../Cast.css'; // Para os estilos
 
 const CardContainer = ({ characters }) => {
   return (
