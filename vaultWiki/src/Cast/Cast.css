@@ -27,7 +27,7 @@
 .category-section{
     padding: 5px;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: 110px repeat(8, 1fr);
 }
 
 .category-name {
@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .skill-card{
@@ -53,9 +54,11 @@
     font-size: 12px;
     font-weight: bold;
     margin: 0;
+    text-align: center;
 }
 
 .skill-description{
     font-size: 12px;
     text-align: center;
+    margin: 0;
 }
