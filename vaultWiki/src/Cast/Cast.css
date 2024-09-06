@@ -45,7 +45,7 @@
     border-radius: 10px;
     padding: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
@@ -61,4 +61,49 @@
     font-size: 12px;
     text-align: center;
     margin: 0;
+}
+
+.skill-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+button.increment,
+button.decrement {
+    padding: 0;
+    border-radius: 100%;
+    border: none;
+    width: 20px;                
+    height: 20px;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;       
+    cursor: pointer;            
+    transition: background-color 0.3s ease;
+}
+
+button.decrement {
+    background-color: crimson;
+}
+
+button.increment{
+    background-color: forestgreen; 
+}
+  
+.increment:disabled,
+.decrement:disabled {
+    background-color: #1a1a1a;
+    cursor: not-allowed;           
+}
+
+.button-span{
+    border-radius: 100%;
+    border: none;
+    width: 20px;                
+    height: 20px;
+    line-height: 1;
+    font-size: 18px;
 }
