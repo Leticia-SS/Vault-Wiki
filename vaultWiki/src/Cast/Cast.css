@@ -1,7 +1,7 @@
 .card-container {
     padding: 20px; 
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, auto));
     gap: 10px;
